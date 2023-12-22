@@ -29,8 +29,9 @@ driver = webdriver.Chrome()
 weather_df = pd.DataFrame()
 
 # This file works backwards to download data.
-search_date = '2022-12-31'
-end_date = '2022-11-01'
+search_date = '2022-10-31' # Start Date of going backward
+end_date = '2022-08-01'
+excel_file_name = f"Resources/weather_data_{end_date}_{search_date}.xlsx"
 base_url = "https://www.wunderground.com/history/daily/us/oh/green/KCAK/date/"
 
 # Create the definition to loop over
@@ -78,7 +79,6 @@ while search_date >= end_date:
     print(search_date)
 
 # Export the dataframe to an excel document for preservation
-excel_file_name = f"Resources/weather_data_{end_date}_{search_date}.xlsx"
 weather_df.to_excel(excel_file_name, index=False, header=True)
 
 # Quit the Driver
