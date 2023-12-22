@@ -12,6 +12,8 @@ If you haven't installed selenium use pip install selenium, else, use updates
 pip install selenium --upgrade
 pip install --upgrade webdriver-manager
 
+-- USE SMALL DATA CHUNKS PERHAPS ONE OR TWO MONTHS AT A TIME --
+The website likes to create pop up ads which can cause the driver to freeze.
 """
 # Import the need modules
 from selenium import webdriver
@@ -25,8 +27,10 @@ driver = webdriver.Chrome()
 
 # Initiate Date to search and DataFrame
 weather_df = pd.DataFrame()
+
+# This file works backwards to download data.
 search_date = '2022-12-31'
-end_date = '2022-06-01'
+end_date = '2022-11-01'
 base_url = "https://www.wunderground.com/history/daily/us/oh/green/KCAK/date/"
 
 # Create the definition to loop over
@@ -74,7 +78,8 @@ while search_date >= end_date:
     print(search_date)
 
 # Export the dataframe to an excel document for preservation
-weather_df.to_excel("Resources/weather_data.xlsx", index=False, header=True)
+excel_file_name = f"Resources/weather_data_{end_date}_{search_date}.xlsx"
+weather_df.to_excel(excel_file_name, index=False, header=True)
 
 # Quit the Driver
 driver.close()
