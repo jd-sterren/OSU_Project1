@@ -25,8 +25,8 @@ driver = webdriver.Chrome()
 
 # Initiate Date to search and DataFrame
 weather_df = pd.DataFrame()
-search_date = '2023-11-01'
-end_date = '2023-01-01'
+search_date = '2022-12-31'
+end_date = '2022-06-01'
 base_url = "https://www.wunderground.com/history/daily/us/oh/green/KCAK/date/"
 
 # Create the definition to loop over
