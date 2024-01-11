@@ -1,7 +1,7 @@
 <h1>OSU AI & Machine Learning: First Project of the Program</h1>
 
 ## Overview
-<p><img src="https://github.com/jd-sterren/OSU_Project1/blob/main/Resources/img/output2-resampled.png" style="float: right; height:150px; margin: 5px; border: 1px;" alt="Prediction Analysis">
+<p style="width:600px"><img src="https://github.com/jd-sterren/OSU_Project1/blob/main/Resources/img/output2-resampled.png" style="float: right; height:150px; margin: 5px; border: 1px;" alt="Prediction Analysis">
 The project is designed to analyze crime patterns and trends using python in Jupyter
 Notebook.  The data used is comprised of weather data, crime reports, and calls for service
 (CFS) for the area of Canton, Ohio.  The analysis concludes by using the Prophet module
