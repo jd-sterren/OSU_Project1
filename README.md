@@ -7,11 +7,10 @@ Notebook.  The data used is comprised of weather data, crime reports, and calls 
 to predict future trends for allocated resources to be deployed appropriately.
 
 <h2>Features</h2>
-<p>
-<b>Data Integration:</b> Integrates weather, crime, CFS, and demographic 
-information specific to Canton, Ohio.
+<p><b>Data Integration:</b> Integrates weather, crime, CFS, and demographic 
+information specific to Canton, Ohio.<br/>
 <b>Predictive Analytics:</b> Uses Prophet module to automate forecasts in 
-overall crime, domestic violence, theft, and overdoses.
+overall crime, domestic violence, theft, and overdoses.<br/>
 <b>Customizable Parameters:</b> Allows selection and weighting of different data points for tailored analysis.</p>
 
 <p><b><i>Important Notes in Using weather_scraper.py</i></b></p>
@@ -19,8 +18,8 @@ overall crime, domestic violence, theft, and overdoses.
 times are shifted (11:51 PM marks the start of the day during daylight savings, and 12:51 AM outside of it).
 Data Processing: Use small data chunks, preferably one or two months at a time, to avoid issues 
 with website pop-ups that can freeze the driver.</p>
+<p><b>Selenium module is required using the following install</b></p>
 <ul>
-<b>Selenium module is required using the following install</b>
     <li>pip install selenium</li>
     <li>pip install selenium --upgrade</li>
     <li>pip install --upgrade webdriver-manager</li>
