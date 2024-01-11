@@ -24,6 +24,6 @@ pip install selenium --upgrade
 pip install --upgrade webdriver-manager
 
 Data Sources
-Weather Data: [Source and or description]
-Crime Data: [Source and or description]
-Demographic Data: [Source and or description]
+Weather Data: [Canton, Ohio Police Department]
+Crime Data: [Canton, Ohio Police Department]
+Demographic Data: [Canton, Ohio Police Department]
