@@ -7,7 +7,7 @@ Notebook.  The data used is comprised of weather data, crime reports, and calls 
 to predict future trends for allocated resources to be deployed appropriately.
 
 <h2>Features</h2>
-<img src="https://github.com/jd-sterren/OSU_Project1/blob/main/Resources/img/output2-resampled.png" style="float: right;" alt="Prediction Analysis">
+<img src="https://github.com/jd-sterren/OSU_Project1/blob/main/Resources/img/output2-resampled.png" style="float: right;height: 50%;" alt="Prediction Analysis">
 <p><b>Data Integration:</b> Integrates weather, crime, CFS, and demographic 
 information specific to Canton, Ohio.<br/>
 <b>Predictive Analytics:</b> Uses Prophet module to automate forecasts in 
