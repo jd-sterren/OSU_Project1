@@ -1,13 +1,11 @@
-# OSU_Project1
-<h1>First Project of the Program</h1>
+<h1>OSU AI Machine Learning: First Project of the Program</h1>
 
-## Predictive Crime Analysis Tool
-# Overview
-This program is a supervised machine learning module designed to analyze crime patterns 
-in Canton, Ohio, based on weather data and crime demographics. Our tool uncovers correlations between 
-weather conditions and crime occurrences, enabling the potential of predictive insights.
-
-## Features
+## Overview
+The project is designed to analyze crime patterns and trends using python in Jupyter
+Notebook.  The data used is comprised of weather data, crime reports, and calls for service
+(CFS) for the area of Canton, Ohio.  The analysis concludes by using the Prophet module
+to predict future trends for allocated resources to be deployed appropriately.
+<h2>Features</h2>
 Data Integration: Integrates weather data, crime data, and demographic information specific to Canton, Ohio.
 Predictive Analytics: Uses supervised machine learning algorithms to show crime occurrences based on weather conditions.
 Customizable Parameters: Allows selection and weighting of different data points for tailored analysis.
