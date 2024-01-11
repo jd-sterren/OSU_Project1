@@ -3,13 +3,13 @@ First Project of the Program
 
 ##Predictive Crime Analysis Tool
 #Overview
-This program is a supervised machine learning module designed to analyze and predict crime patterns 
+This program is a supervised machine learning module designed to analyze crime patterns 
 in Canton, Ohio, based on weather data and crime demographics. Our tool uncovers correlations between 
-weather conditions and crime occurrences, enabling predictive insights.
+weather conditions and crime occurrences, enabling the potential of predictive insights.
 
 ##Features
 Data Integration: Integrates weather data, crime data, and demographic information specific to Canton, Ohio.
-Predictive Analytics: Uses supervised machine learning algorithms to predict future crime occurrences based on weather conditions.
+Predictive Analytics: Uses supervised machine learning algorithms to show crime occurrences based on weather conditions.
 Customizable Parameters: Allows selection and weighting of different data points for tailored analysis.
 User-Friendly Interface: Designed for ease of use among those with basic programming and data analysis knowledge.
 Important Notes
