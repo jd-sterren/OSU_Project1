@@ -14,16 +14,18 @@ information specific to Canton, Ohio.
 overall crime, domestic violence, theft, and overdoses.
 <b>Customizable Parameters:</b> Allows selection and weighting of different data points for tailored analysis.</p>
 
-<b><i>Important Notes in Using weather_scraper.py</i></b>
-Weather Data Timeframe: The data abstracted only includes the time for the search date. Due to daylight savings, 
+<p><b><i>Important Notes in Using weather_scraper.py</i></b></p>
+<p>Weather Data Timeframe: The data abstracted only includes the time for the search date. Due to daylight savings, 
 times are shifted (11:51 PM marks the start of the day during daylight savings, and 12:51 AM outside of it).
 Data Processing: Use small data chunks, preferably one or two months at a time, to avoid issues 
-with website pop-ups that can freeze the driver.
+with website pop-ups that can freeze the driver.</p>
+<ul>
 <b>Selenium module is required using the following install</b>
-pip install selenium<br/>
-pip install selenium --upgrade<br/>
-pip install --upgrade webdriver-manager<br/>
-</p>
+    <li>pip install selenium</li>
+    <li>pip install selenium --upgrade</li>
+    <li>pip install --upgrade webdriver-manager</li>
+</ul>
+
 
 <h3>References</h3>
 
