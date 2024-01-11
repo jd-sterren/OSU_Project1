@@ -26,9 +26,15 @@ with website pop-ups that can freeze the driver.</p>
     <li>pip install --upgrade webdriver-manager</li>
 </ul>
 
+<h3>Summary Findings</h3>
+<p>Overall crime trends are showing a decline, however, that doesn't mean specific types of crime are declining. There were outliers in 2021 near the beginning of the year were reported crime dropped dramatically then spiked just as dramatically months later.  Afternoons from 12:00 to 18:00 hours show to be the highest time of reported criminal activity and calls for service.</p>
+<p>Focusing on specific crime, Domestic Violence appears to have some correlation to temperature as stated in a CNN article (Christensen, 2023).  There is a major decline in Domestic Violence for the months of February and November during the timeframe of the dataset however, the overall Domestic Violence trend is showing a slight increase into 2024 and 2025.</p>
+<p>Covid-19 shut down may have stunted Theft reports in 2020 however, the following year jumped with a slow decline into 2023.  The month of June was the most reported thefts for 2022 followed by May and Aug.  The overall trend for Thefts is showing a decline into 2024.</p>
+<p>Most overdoses to occur in the timeframe of the dataset was in 2022.  The months of July, May, and June were the highest months for people to overdose during the hours of 16:00 and 03:00.  While there is a slow decline into 2024, we can expect a monthly increase as we approach April 2024 based on Prophet’s predictions.</p>
 
-<h3>References</h3>
+<h4>References</h4>
 <p>Pandas Categorical. (n.d.). Pandas. https://pandas.pydata.org/docs/reference/api/pandas.Categorical.html</p>
 <p>Canton Ohio Weather. (2023). OpenWeather. [Canton_Ohio_Weather.csv]. https://openweathermap.org/</p>
 <p>Canton Crime Reports. (2023). Canton, Ohio Police Department. [reported_crime.xlsx]</p>
 <p>Canton Calls for Service. (2023). Canton, Ohio Police Department. [cfs_data_Canton.xlsx]</p>
+<p>Christensen, J. (2023). Hot under the collar? Heat can make you angry and even aggressive, research finds. <i>CNN Health</i>. https://www.cnn.com/2023/09/05/health/heat-anger-wellness/index.html#:~:text=In%20fact%2C%20research%20shows%20that,when%20temperatures%20climb%2C%20studies%20show.</p>
