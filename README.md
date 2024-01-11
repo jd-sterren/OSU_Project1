@@ -27,7 +27,7 @@ with website pop-ups that can freeze the driver.</p>
 
 
 <h3>References</h3>
-Pandas Categorical. (n.d.). Pandas. https://pandas.pydata.org/docs/reference/api/pandas.Categorical.html
-Canton Ohio Weather. (2023). OpenWeather. [Canton_Ohio_Weather.csv]. https://openweathermap.org/
-Canton Crime Reports. (2023). Canton, Ohio Police Department. [reported_crime.xlsx]
-Canton Calls for Service. (2023). Canton, Ohio Police Department. [cfs_data_Canton.xlsx]
+<p>Pandas Categorical. (n.d.). Pandas. https://pandas.pydata.org/docs/reference/api/pandas.Categorical.html</p>
+<p>Canton Ohio Weather. (2023). OpenWeather. [Canton_Ohio_Weather.csv]. https://openweathermap.org/</p>
+<p>Canton Crime Reports. (2023). Canton, Ohio Police Department. [reported_crime.xlsx]</p>
+<p>Canton Calls for Service. (2023). Canton, Ohio Police Department. [cfs_data_Canton.xlsx]</p>
